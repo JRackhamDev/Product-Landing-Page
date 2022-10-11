@@ -1,0 +1,22 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+section {
+    ;
+}
+
+#header-img {
+    position: relative;
+    max-width: 200px;
+}
+
+ul {
+    list-style: none;
+    position: relative;
+}
+
+.nav-link:hover {
+    background-color: grey;
+    color: white;
+}
