@@ -9,11 +9,14 @@
     </head>
     <body>
         <header id="header">
-            <img id="header-img" src="https://3.bp.blogspot.com/-RI2eABIH8mY/WNlDecUF1HI/AAAAAAAAIgk/PGpg9eQ7HDknvozbHlJiojqIQDsYjWk9ACLcB/s1600/Tesla-logo-2003-2500x2500.png" />
+            <div class="logo">
+                <img id="header-img" src="https://3.bp.blogspot.com/-RI2eABIH8mY/WNlDecUF1HI/AAAAAAAAIgk/PGpg9eQ7HDknvozbHlJiojqIQDsYjWk9ACLcB/s1600/Tesla-logo-2003-2500x2500.png" 
+                alt="Tesla Logo"/>
+            </div>
             <nav id="nav-bar">
                 <ul>
                     <li><a class="nav-link" href="#features">Features</a></li>
-                    <li><a class="nav-link" href="#video">Reveal</a></li>
+                    <li><a class="nav-link" href="#reveal">Reveal</a></li>
                     <li><a class="nav-link" href="#pricing">Pricing</a></li>
                     <li><a id="order" class="nav-link" href="https://www.tesla.com/en_gb/model3/design#overview">Order Now</a></li>
                 </ul>
@@ -21,20 +24,72 @@
         </header>
         <main>
             <section>
+                <h2>Tesla Model 3</h2>
+                <p></p>
                 <form id="form" action="https://www.freecodecamp.com/email-submit">
                     <input type="email" name="email" id="email" placeholder="Enter your email address" required />
                     <input id="submit" type="submit" value="Get Started" class="btn"/>
                 </form>
             </section>
-            <div>
+            <div class="container">
                 <section id="features">
-
+                    <div class="grid">
+                        <div class="icon">
+                            <img class="icon" width="100px" src="https://di-uploads-development.dealerinspire.com/dibrandhubkia/uploads/2021/08/speed2.png"></img>
+                        </div>
+                        <div class="desc">
+                            <h2>Performance <span class="subtitle">- Quickest Acceleration</span></h2>
+                            <p>Model 3 comes with the option of dual motor all-wheel drive, 20” Überturbine Wheels and Performance Brakes for total control in all weather conditions. A carbon fiber spoiler improves stability at high speeds, all allowing Model 3 to accelerate from 0-60 mph* in as little as 3.1 seconds.</p>
+                        </div>
+                    </div>
+                    <div class="grid">
+                        <div class="icon">
+                            <img class="icon" width="100px" src="https://cdn-icons-png.flaticon.com/512/67/67139.png"></img>
+                        </div>
+                        <div class="desc">
+                            <h2>Range <span class="subtitle">- Go Anywhere</span></h2>
+                            <p>Model 3 is fully electric, so you never need to visit a gas station again. If you charge overnight at home, you can wake up to a full battery every morning. And when you’re on the road, it’s easy to plug in along the way—at any public station or with the Tesla charging network.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="grid">
+                        <div class="icon">
+                            <img class="icon" width="100px" src="https://www.pngfind.com/pngs/m/444-4444492_png-file-all-wheel-drive-icon-transparent-png.png"></img>
+                        </div>
+                        <div class="desc">
+                            <h2>All-Wheel Drive <span class="subtitle">- Dual Motor</span></h2>
+                            <p>Tesla All-Wheel Drive has two independent motors for improved redundancy, each with only one moving part for minimal maintenance and maximum durability. Unlike traditional all-wheel drive systems, they digitally control torque to the front and rear wheels for far better handling and traction control.</p>
+                        </div>
+                    </div>
                 </section>
-                <section id="video">
-                    <iframe id="video" src="https://www.youtube.com/watch?v=Q4VGQPk2Dl8"></iframe>
+                <section id="reveal">
+                    <iframe id="video" src="https://www.youtube.com/watch?v=laW8rtUEMyc"></iframe>
                 </section>
                 <section id="pricing">
+                    <div class="product" id="standard">
+                        <div class="level">Model 3</div>
+                        <h2>£48,490</h2>
+                        <ol>
+                            
+                        </ol>
+                        <button class="btn">Select</button>
+                    </div>
+                    <div class="product" id="longrange">
+                        <div class="level">Model 3 Long Range</div>
+                        <h2>£57,490</h2>
+                        <ol>
 
+                        </ol>
+                        <button class="btn">Select</button>
+                    </div>
+                    <div class="product" id="performance">
+                        <div class="level">Model 3 Performance</div>
+                        <h2>£61,490</h2>
+                        <ol>
+
+                        </ol>
+                        <button class="btn">Select</button>
+                    </div>
                 </section>
             </div>
         </main>

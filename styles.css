@@ -6,9 +6,14 @@
 }
 
 header {
-    width: 100%;
-    background-color: rgb(255, 255, 255);
-    
+  position: fixed;
+  top: 0;
+  min-height: 75px;
+  padding: 0px 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #fff;
 }
 
 ul {
@@ -16,11 +21,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #cc0000;
-}
-
-#order li {
-  float: right;
+    background-color: #fff;
 }
 
 li {
@@ -29,15 +30,15 @@ li {
 
 li a {
     display: block;
-    color: white;
+    color: #cc0000;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
   }
 
   li a:hover {
-    color: #cc0000;
-    background-color: rgb(255, 255, 255);
+    color: #fff;
+    background-color: #cc0000;
   }
 
 #header-img {
@@ -45,17 +46,21 @@ li a {
     max-width: 100px;
 }
 
-#form {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  height: 200px;
-  margin-top: 50px;
+div {
+  display: block;
+}
 
-#form input[type='email'] {
-  max-width: 275px;
-  padding: 100%
-  padding: 5px;
+.container {
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.subtitle {
+  color: gray;
+  font-size: medium;
+}
+
+.grid {
+  display: flex;
 }
