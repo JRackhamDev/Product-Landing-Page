@@ -262,5 +262,20 @@ footer {
   align-items: center;
   justify-content: space-between;
   padding: 1.1rem 5rem;
-  background: linear-gradient(360deg, rgb(85, 85, 85),, #ffffff 100%);
+  background-color: #ddd;
+  color: black;
+}
+
+footer > ul {
+  display: flex;
+  justify-content: flex-end;
+  color: black;
+}
+
+footer > ul > li {
+  padding: 0 10px;
+}
+
+.footerlink {
+  color: black;
 }
